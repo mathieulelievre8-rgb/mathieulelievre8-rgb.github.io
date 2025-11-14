@@ -1,0 +1,41 @@
+/* Style pour tout le corps de la page */
+body {
+    background-color: #f4f0e9; /* Un beige clair piqué sur ton image */
+    font-family: Arial, sans-serif; /* Une police simple et lisible */
+    color: #333; /* Couleur de texte (gris foncé au lieu de noir pur) */
+}
+
+/* On va centrer tout le contenu principal */
+header, main, footer {
+    width: 90%; /* Le contenu ne fera pas toute la largeur, c'est plus joli */
+    max-width: 800px; /* Mais pas plus large que 800px sur grand écran */
+    margin: 20px auto; /* Centre les blocs (haut/bas 20px, gauche/droite auto) */
+    text-align: center; /* Centre le texte ET les images à l'intérieur */
+}
+
+/* Style pour TOUTES les images */
+img {
+    max-width: 100%; /* L'image ne dépassera JAMAIS de son conteneur */
+    height: auto; /* Garde les bonnes proportions */
+    border-radius: 8px; /* Ajoute des coins arrondis, c'est classe */
+}
+
+/* Style juste pour le logo, pour qu'il soit plus petit */
+header img {
+    width: 150px; /* On fixe la largeur du logo à 150px */
+}
+
+/* Style pour les titres */
+h1 {
+    color: #5a4a42; /* Une couleur marron foncée (pour le style !) */
+}
+
+/* Style pour les liens */
+a {
+    color: #8a6d5f; /* Une couleur marron moyen */
+    text-decoration: none; /* Enlève le soulignement moche */
+}
+
+a:hover {
+    text-decoration: underline; /* Ajoute le soulignement que quand on passe la souris dessus */
+}
